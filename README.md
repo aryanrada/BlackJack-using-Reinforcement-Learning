@@ -1,10 +1,10 @@
-# 🃏 Blackjack Reinforcement Learning
+# BlackJack using Reinforcement Learning
 
 This project implements a simplified **Blackjack environment** and applies **Monte Carlo Control** and **SARSA(λ)** reinforcement learning algorithms to learn an optimal policy.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `game.py` — Custom OpenAI Gym-style environment for Blackjack with stochastic transitions.
 - `BlackJack.ipynb` — Jupyter Notebook containing:
@@ -16,7 +16,7 @@ This project implements a simplified **Blackjack environment** and applies **Mon
 
 ---
 
-## 🎮 Blackjack Environment
+## Blackjack Environment
 
 The environment is a variation of the classic Blackjack game with the following properties:
 
@@ -38,15 +38,15 @@ The environment is a variation of the classic Blackjack game with the following 
 
 ---
 
-## 🤖 Algorithms Implemented
+## Algorithms Implemented
 
-### 🧮 Monte Carlo Control
+### Monte Carlo Control
 - First-visit Monte Carlo
 - Epsilon-greedy action selection
 - Updates `Q(s, a)` using complete episodes
 - Visualizes learned **state-value function**
 
-### 🔁 SARSA(λ)
+### SARSA(λ)
 - Forward-view SARSA with n-step returns
 - Lambda parameter for bias-variance trade-off
 - Supports λ ∈ [0, 1] where:
